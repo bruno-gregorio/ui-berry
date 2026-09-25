@@ -16,3 +16,5 @@ Documentation on how to claim a task.
 8. On the section to the right side of "Attempt URL" the text box is no longer blocked, paste the Feather URL (the one copied on step 6) there.
 9. Click on the "Save" button.
 10. The task is now claimed, go back to Feather.
+
+> Important note: this is a critical part of the workflow, if you find any unexpected circumstance outside of what's documented here, stop and inform the user.
