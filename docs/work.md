@@ -24,7 +24,7 @@ Those prose fields must follow some very specific rules, please check the attach
 - Always start each prose field with this pattern: "Website X is better because..."
 - The overall field must whenever possible try to avoid just quoting the other two fields, this field should focus on why the disadvantages of a certain option make it inferior to the other, focus on explanations.
 
-Once you have all three prose fields, display them on the chat and look at the page and fill the three text fields with the right prose and tick the appropriate button above it. Once done, the work here is done.
+Once you have all three prose fields, display them on the chat and look at the page and fill the three text fields with the right prose and tick the appropriate button above it. Once done, the work here is done, don't do anything else.
 
 Extra notes:
 
