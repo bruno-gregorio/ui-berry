@@ -30,3 +30,5 @@ Once you have all three prose fields, display them on the chat and look at the p
 Extra notes:
 
 - The review should reflect the experience of a hypothetical final user, avoid using problems from overly synthetic situations like: the UI breaks if we render it at height 650px.
+- Unless asked on the prompt, only test the application in desktop mode.
+- Be careful when judging a page by things not explicitly mentioned on the prompt. You might still do this as long as you think it's relevant for the end user (for example: bad contrast might not be on the prompt, but it's still a bad design choice). When composing the prose always give priority for problems you can trace back to the prompt.
