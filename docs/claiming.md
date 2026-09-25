@@ -8,7 +8,8 @@ Documentation on how to claim a task.
    - a new task will appear on the list with the "Not started" status. IMPORTANT: NEVER claim a new task while we still have a task "Not started" or "In progress" in the same project.
    - A toast message will appear telling us that there are no tasks available or some other error. If this happens, try another unpaused batch, if there are no more unpaused batches, stop and inform the user.
 4. By clicking on the task with the "Not started" status we navigate to the task page. There we'll have a section "Attempt URL" and on it we'll have a link for the Feather platform. Click it and Feather will open on a new tab.
-5. Once the task loads on Feather we have two scenarios:
+5. Once the task loads on Feather we have three scenarios:
+   - The user isn't yet authenticated on Feather, in this case, pause and ask the user for authentication.
    - The Feather page shows a "Task not found" error. In this case, we close the tab, go back to the task page, click on the "Skip" button (top right). A modal will appear, there we type the reason "Task not found" and confirm the skipping of the task. We'll then be sent to the task list where we'll go back to step 2.
    - Feather loads a valid task, in this case look for the drop down on the top right of the screen, the task should be marked as "unclaimed" there (if it's not repeat the scenario above with changing only the skip reason to "The task is not unclaimed"). If the task is unclaimed, change it on the drop down to "In progress".
 6. Whe you change the task on Feather to "In progress" the URL of the Feather page will change. Copy the new URL and go back to the task page on LinkedIn.
