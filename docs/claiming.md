@@ -13,7 +13,7 @@ Documentation on how to claim a task.
    - Feather loads a valid task, in this case look for the drop down on the top right of the screen, the task should be marked as "unclaimed" there (if it's not repeat the scenario above with changing only the skip reason to "The task is not unclaimed"). If the task is unclaimed, change it on the drop down to "In progress".
 6. Whe you change the task on Feather to "In progress" the URL of the Feather page will change. Copy the new URL and go back to the task page on LinkedIn.
 7. Once there look for the button "Start annotation" and click it.
-8. On the section to the right side of "Attempt URL" the text box is no longer blocked, paste the Feather URL (the one copied on step 6) there.
+8. On the section to the right side of "Attempt URL" (the one with the label "After claiming the task, copy the URL link from the browser.") the text box is no longer blocked, paste the Feather URL (the one copied on step 6) there.
 9. Click on the "Save" button.
 10. The task is now claimed, go back to Feather.
 

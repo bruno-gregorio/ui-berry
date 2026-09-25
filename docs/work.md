@@ -1,6 +1,6 @@
 # Working on a task
 
-Once you successfully claimed a task and is now back on Feather, time to work on it.
+Once you successfully claimed a task and is now back on Feather, time to work on it. This workflow should run as a separate sub-agent.
 
 This is a UI Berry task in which you must compare two websites across three different dimensions: aesthetics, functionality and overall, taking as the main source of truth the user prompt present on the page. This document is just a quick guide, the full documentation can be found at on the [PDF](./UI%20Berry.pdf).
 
@@ -24,7 +24,7 @@ Those prose fields must follow some very specific rules, please check the attach
 - Always start each prose field with this pattern: "Website X is better because..."
 - The overall field must whenever possible try to avoid just quoting the other two fields, this field should focus on why the disadvantages of a certain option make it inferior to the other, focus on explanations.
 
-Once you have all three prose fields, display them on the chat and look at the page and fill the three text fields with the right prose and tick the appropriate button above it. Once done, close the other tabs you opened during the workflow, and if possible, notify me you're done.
+Once you have all three prose fields, display them on the chat and look at the page and fill the three text fields with the right prose and tick the appropriate button above it. Once done, the work here is done.
 
 Extra notes:
 
