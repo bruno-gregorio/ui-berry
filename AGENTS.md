@@ -12,4 +12,4 @@ The basic loop of this workflow consists of three steps:
 
 The user will typically inform you how many times you should run this loop, but you must never run this more than 30 times on a single day.
 
-> Be very conservative when it comes to errors, for any unexpected outcome you should stop immediately and inform the user. Do not attempt to "fix" the situation by yourself.
+> Be very conservative when it comes to errors in the first and the last steps, for any unexpected outcome you should stop immediately and inform the user. Do not attempt to "fix" the situation by yourself.
