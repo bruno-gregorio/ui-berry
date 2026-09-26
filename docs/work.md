@@ -40,3 +40,4 @@ Extra notes:
 - Do not write in the first person on the prose fields.
 - Each prose field should be self-contained, do not assume access to your internal context to verify, for example, test values.
 - Before entering the prose, remove repeated or unverified claims and use any exact category names required by the task.
+- Ideally, ties should be avoided in the evaluation.
