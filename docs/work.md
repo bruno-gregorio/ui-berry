@@ -6,13 +6,17 @@ This is a UI Berry task in which you must compare two websites across three diff
 
 On this page there are two button "Website A" and "Website B", those will take you to a partial view of each website. Once there you must look for a button with a tooltip more or less like this "Open preview in a new environment", it's located below the iframe of the preview, to the right side of the "Capture" button. This button will open the site on a new tab, all of your tests must be conducted there.
 
-The first step of the task is to compose a lists of problems for each website across the two dimensions of evaluation: aesthetics and functionality (please check the [PDF](./UI%20Berry.pdf) to see what to include in each evaluation) and display it. Once done, you have to make the opposite path, read each item on each list and check their factuality.
+Before comparing, list what the prompt requires: content, behavior, data, and visual style. Keep extra features separate. Do not treat an extra as a requirement or assume a feature is missing until you check the full workflow.
+
+Test the requested controls through their results, not just their first click. Check forms, navigation, counts, values, and visible defects. Confirm each claim in the live site, including problems on the website you prefer.
+
+Make four problem lists: aesthetics and functionality for each website. Display them, then check every item against the live sites. See the [PDF](./UI%20Berry.pdf) for what each dimension covers.
 
 Now that we have the four lists, we have to condense them in three prose fields:
 
-- A prose field detailing with website is better at Aesthetics.
-- A prose field detailing which website is better at Functionality.
-- A prose field detailing which website is better overall. In case of a tie, functionality triumphs over aesthetics.
+- Aesthetics: compare visual quality and the requested style, separate from behavior and prompt coverage.
+- Functionality: compare requested content and working behavior, wherever they appear in the workflow.
+- Overall: weigh both dimensions independently. There is no automatic winner when they disagree.
 
 Those prose fields must follow some very specific rules, please check the attached [PDF](./UI%20Berry.pdf) for the whole context. But here are some of the most notable ones:
 
@@ -35,3 +39,4 @@ Extra notes:
 - Do not use non-ASCII characters on the prose fields.
 - Do not write in the first person on the prose fields.
 - Each prose field should be self-contained, do not assume access to your internal context to verify, for example, test values.
+- Before entering the prose, remove repeated or unverified claims and use any exact category names required by the task.

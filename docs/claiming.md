@@ -9,7 +9,7 @@ Documentation on how to claim a task.
    - A toast message will appear telling us that there are no tasks available or some other error. If this happens, try another unpaused batch, if there are no more unpaused batches, stop and inform the user.
 4. By clicking on the task with the "Not started" status we navigate to the task page. There we'll have a section "Attempt URL" and on it we'll have a link for the Feather platform. Click it and Feather will open on a new tab.
 5. Once the task loads on Feather we have three scenarios:
-   - The user isn't yet authenticated on Feather, in this case, pause and ask the user for authentication.
+   - The user isn't yet authenticated on Feather, when this happens, first wait a few seconds so Feather can update its auth data. If the problem persists, stop the workflow and notify the user to authenticate on Feather.
    - The Feather page shows a "Task not found" error. In this case, we close the tab, go back to the task page, click on the "Skip" button (top right). A modal will appear, there we type the reason "Task not found" and confirm the skipping of the task. We'll then be sent to the task list where we'll go back to step 2.
    - Feather loads a valid task, in this case look for the drop down on the top right of the screen, the task should be marked as "unclaimed" there (if it's not repeat the scenario above with changing only the skip reason to "The task is not unclaimed"). If the task is unclaimed, change it on the drop down to "In progress".
 6. Whe you change the task on Feather to "In progress" the URL of the Feather page will change. Copy the new URL and go back to the task page on LinkedIn.
@@ -19,3 +19,7 @@ Documentation on how to claim a task.
 10. The task is now claimed, go back to Feather.
 
 > Important note: this is a critical part of the workflow, if you find any unexpected circumstance outside of what's documented here, stop and inform the user.
+
+## Skipping Tasks
+
+In some cases like when a task is not found on Feather, we have to skip it. There are instructions on step 5 on how to skip a task. Skipped tasks do not count for the requested task count, but we have a daily limit of skips, the last information put the limit of skips at 40.
